@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje wideo z sztuczną inteligencją</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .video-box {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 12px;
+            background: black;
+        }
+
+        .video-box iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border: none;
+            left: 0;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Moje wideo</h1>
+
+        <div class="video-box">
+            <iframe 
+                src="https://web.lisaai.app/creation/08e31372-f6fc-44c1-bc0a-0b16eab59209?outputId=3376514&prev=inspirations/viral-videos"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+</body>
+</html>
